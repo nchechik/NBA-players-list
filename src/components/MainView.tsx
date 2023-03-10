@@ -19,7 +19,7 @@ const MainView = () => {
   const [players, setPlayers] = useState<Player[]>([]);
   const [favoritesPlayers, setFavoritesPlayers] = useState<Player[]>([]);
   const [searchText, setSearchText] = useState<string>('');
-  const [backgroundColor, setBackroundColor] = useState<string>('#dd831bad');
+  const [backgroundColor, setBackgroundColor] = useState<string>('#dd831bad');
 
   const {
     allPlayers,
@@ -75,7 +75,7 @@ const MainView = () => {
       >
         <MuiColorInput
           value={backgroundColor}
-          onChange={setBackroundColor}
+          onChange={setBackgroundColor}
           sx={{ backgroundColor: '#b2f3fc63' }}
         />
       </PlayersList>
