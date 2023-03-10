@@ -13,6 +13,8 @@ const StyledMainContainer = styled(Box)(({ theme }) => ({
   display: 'flex',
   height: window.innerHeight,
   overflow: 'hidden',
+  justifyContent: 'center',
+  alignItems: 'center',
 }));
 
 const MainView = () => {

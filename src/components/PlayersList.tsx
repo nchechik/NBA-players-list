@@ -16,7 +16,7 @@ import { Typography } from '@mui/material';
 
 const ListContainer = styled(Box)<{ background: string }>(({ background }) => ({
   flex: 1,
-  height: '90%',
+  height: '95%',
   margin: 10,
   backgroundColor: background,
   borderRadius: 10,
@@ -30,6 +30,7 @@ const StyledTableHead = styled(Box)(({ theme }) => ({
   alignItems: 'center',
   display: 'flex',
   justifyContent: 'space-between',
+  height: '7%',
 }));
 
 interface PlayerListProps {
@@ -74,7 +75,7 @@ const PlayersList = ({
       <List
         sx={{
           overflow: 'auto',
-          height: '85%',
+          height: '88%',
         }}
         onScroll={handleScroll}
       >
